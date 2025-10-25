@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("💬 Chatbot")
+st.title("💬 나의 첫번째 챗봇")
 st.write(
     "이 앱은 OpenAI의 GPT-3.5 모델을 활용한 간단한 챗봇입니다. "
     "이 앱을 사용하려면 OpenAI API 키가 필요하며, [여기](https://platform.openai.com/account/api-keys)에서 발급받을 수 있습니다. "
