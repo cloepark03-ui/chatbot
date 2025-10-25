@@ -120,4 +120,4 @@ def to_markdown(brand, industry, objective, outputs):
     md.append("## 1) STP\n" + outputs["stp"] + "\n")
     md.append("## 2) 페르소나\n" + outputs["persona"] + "\n")
     md.append("## 3) 광고 카피 & 슬로건\n" + outputs["copy"] + "\n")
-    md.append("## 4) 매체 전략 & KP
+   md.append("## 4) 매체 전략 & KPI\n" + outputs["media"] + "\n")
